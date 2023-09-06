@@ -22,31 +22,36 @@ for i in range(len(transcripts)):
     
 # Find columns with samples of interest
 cols = []
-#colsMale=[]
+colsMale=[]
 
 #i just an index, just positions
 for i in range(len(samples)):
     if "female" in samples[i]:
         cols.append(i)
-    #else: 
-        #colsMale.append(i)
+    else: 
+        colsMale.append(i)
 
 
 # Subset data of interest
-expression = data[row, cols]
+expressionmales = data[row, colsMale]
+expression=data[row,cols]
 
 # Prepare data
 x = samples[cols]
-#xmales=samples[colsmale]
+xmales=samples[colsMale]
 y = expression
+ymales=expressionmales
 
+x_labels=['10','11','12','13','14A','14B','14C','14D']
 
 # Plot data
 fig, ax = plt.subplots()
 ax.set_title( "FBtr0331261" )
-ax.plot( x, y )
-fig.savefig( "FBtr0331261.png" )
+ax.plot( x_labels, ymales )
+ax.plot(x_labels,y)
+#fig.savefig( "FBtr0331261.png" )
+fig.savefig("RealMaleDataTheOtherIsFemaleSorry")
 #plt.close( fig )
 plt.show()
-fig.savefig('MaleDataExercise1')
+
 
