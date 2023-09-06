@@ -41,6 +41,7 @@ x = samples[cols]
 xmales=samples[colsMale]
 y = expression
 ymales=expressionmales
+twotimesmales=2*np.array(expressionmales)
 
 x_labels=['10','11','12','13','14A','14B','14C','14D']
 
@@ -49,8 +50,9 @@ fig, ax = plt.subplots()
 ax.set_title( "FBtr0331261" )
 ax.plot( x_labels, ymales )
 ax.plot(x_labels,y)
+ax.plot(x_labels,twotimesmales)
 #fig.savefig( "FBtr0331261.png" )
-fig.savefig("RealMaleDataTheOtherIsFemaleSorry")
+fig.savefig("DataWith2xNumpy")
 #plt.close( fig )
 plt.show()
 
