@@ -48,9 +48,9 @@ x_labels=['10','11','12','13','14A','14B','14C','14D']
 # Plot data
 fig, ax = plt.subplots()
 ax.set_title( "FBtr0331261" )
-ax.plot( x_labels, ymales )
-ax.plot(x_labels,y)
-ax.plot(x_labels,twotimesmales)
+malesleg=ax.plot( x_labels, ymales, label='Males')
+femalesleg=ax.plot(x_labels,y, label='Females')
+twomalesleg=ax.plot(x_labels,twotimesmales, label='2xMales')
 #fig.savefig( "FBtr0331261.png" )
 #fig.savefig("DataWith2xNumpy")
 #plt.close( fig )
@@ -58,6 +58,5 @@ ax.set_title('sisA')
 ax.set_xlabel('Developmental Stage')
 ax.set_ylabel('mRNA Abundance (RPKM)')
 fig.savefig('FinalGraphWithAnnotations')
+plt.legend(loc='upper right')
 plt.show()
-
-
