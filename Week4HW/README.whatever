@@ -1,0 +1,4 @@
+2: the fraction of peaks retained (obtained using wc -l) would be 202/286, which is the same for both sample 1 and sample 2 
+
+
+3: The peaks between the two samples are pretty reproducible since each peak represents a significant valuew here protein is predicted to bind. At larger peaks this would be more significant but less reproducible at the borders due to variation in protein binding. the p-value range of a peak should be indicative of reproducibility because the more significant the peak is across the samples the more likely that this is a sight of protein binding. This is not completely consistent across the genome though as different sites have different levels of significance, and some sites may have more reads than others, leading to greater significance. 
