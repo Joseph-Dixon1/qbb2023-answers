@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Genome-Wide Association Studies</title>
+
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <header class="navbar navbar-default navbar-fixed-top" id="top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/cmdb-quantbio/" class="navbar-brand">CMDB Quantitative Biology 2023</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Syllabi</li>
+              <li><a href="/cmdb-quantbio/resources/syllabi/bootcamp/index.html">Bootcamp Syllabus</a></li>
+              <li><a href="/cmdb-quantbio/resources/syllabi/lab/index.html">Lab Syllabus</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Textbook</li>
+              <li><a href="https://andrew-bortvin.github.io/cmdb-bootcampNotes/">Reference Text</a></li>
+              <li class="dropdown-header">Answers to Student Questions</li>
+              <li><a href="/cmdb-quantbio/resources/references/reflection_questions_answered.html">Student Questions</a></li>
+            </ul>
+          </li>
+          <!--  
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Syllabus</li>
+              <li><a href="/cmdb-quantbio/resources/syllabi/bootcamp/index.html">Bootcamp Syllabus</a></li>
+              <li><a href="/cmdb-quantbio/resources/syllabi/lab/index.html">Lab Syllabus</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Command line Reference Sheets</li>
+              <li><a href="/cmdb-quantbio/resources/references/unix.html">Unix</a></li>
+              <li><a href="/cmdb-quantbio/resources/references/git.html">Git</a></li>
+              <li><a href="/cmdb-quantbio/resources/references/git_recipes.html">Git Recipes</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Python, Numpy, Pandas, and Plotting</li>
+              <li><a href="/cmdb-quantbio/resources/references/python.html">Python and Pandas</a></li>
+              <li><a href="/cmdb-quantbio/resources/references/numpy.html">Numpy</a></li>
+              <li><a href="/cmdb-quantbio/resources/gallery/README.html">Plotting/matplotlib</a></li>
+              <li><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf">Matplotlib Cheat Sheet</a></li>
+            </ul>
+          </li>
+        -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bootcamp<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Class Sessions</li>
+              <li><a href="/cmdb-quantbio/webpages/day1.html">Day 1</a></li>
+              <li><a href="/cmdb-quantbio/webpages/day2.html">Day 2</a></li>
+              <li><a href="/cmdb-quantbio/webpages/day3.html">Day 3</a></li>
+              <li><a href="/cmdb-quantbio/webpages/day4.html">Day 4</a></li>
+               <!--
+              <li><a href="/cmdb-quantbio/webpages/day5/index.html">Day 5</a></li>
+              -->
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lab<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Class Sessions</li>
+              <li><a href="/cmdb-quantbio/webpages/week1.html">Week 1</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week2.html">Week 2</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week3.html">Week 3</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week4.html">Week 4</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week5.html">Week 5</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week6.html">Week 6</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week7.html">Week 7</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week8.html">Week 8</a></li>
+              <!--
+              <li><a href="/cmdb-quantbio/webpages/week9/index.html">Week 9</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week10/index.html">Week 10</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week11/index.html">Week 11</a></li>
+              <li><a href="/cmdb-quantbio/webpages/week13/index.html">Week 13</a></li>
+              -->
+            </ul>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <div class="page-header"></div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 id="genome-wide-association-studies">Genome-Wide Association Studies</h1>
+
+<h2 id="background">Background</h2>
+
+<p>One of the central goals of human genetics is clarifying the relationship between genotypes and phenotypes. Genome-wide association studies (GWAS) emerged around 20 years ago as a useful approach for discovering genetic variation that underlies variation in human traits. At their core, GWAS involve fitting linear models to test for relationships between polymorphisms (often SNPs) and phenotypes using data from large samples of individuals.</p>
+
+<p>Genotypes of nearby SNPs are correlated–a phenomenon termed “linkage disequilibrium” or “LD”. This is both a blessing and a curse for GWAS. On one hand, LD means that we need not genotype every single SNP to discover associations. We merely need to genotype “tag SNPs” that segregate in LD with variants that causally influence the phenotype. On the other hand, this also means that even when we find a signficant association, it is often challenging to disentangle the causal gene and/or variant that drives the association.<br /><br /></p>
+
+<h2 id="assignment-overview">Assignment Overview</h2>
+
+<p>Today we will conduct a GWAS using a materials adapted from workshop by Heather Wheeler from Loyola University Chicago (<a href="https://github.com/hwheeler01/GWAS_workshop">https://github.com/hwheeler01/GWAS_workshop</a>). Note that these phenotype data are simulated. The combination of genotype and phenotype data poses a privacy risk, so real genotype and phenotype data from humans are often stored in controlled-access databases such as dbGaP.</p>
+
+<p>The premise for the exercise is that you are part of a company developing two new cancer drugs called GS451 and CB1908. Some individuals in early phase trials have experienced a side effect of these drugs called lymphocytopenia (low lymphocyte counts). You are now tasked with performing a GWAS on data from lymphblastoid cell lines to search for risk factors for lymphocytopenia. The phenotype that was measured is the IC50, defined as the concentration of the drug at which 50% viability occurs.<br /><br /></p>
+
+<h2 id="data">Data</h2>
+
+<p>All the data you need for this assignment is in a zipped folder here: <code class="language-plaintext highlighter-rouge">~/cmdb-quantbio/assignments/lab/GWAS/extra_data/gwas_data.tar.gz</code>. Make a working copy of this file within your weekly homework directory.</p>
+
+<p>After copying the zipped folder, you’ll need to extract it with <code class="language-plaintext highlighter-rouge">tar -zxvf &lt;filename.tar.gz&gt;</code>. You should get 3 files:</p>
+<ol>
+  <li>genotypes.vcf</li>
+  <li>GS451_IC50.txt</li>
+  <li>CB1908_IC50.txt</li>
+</ol>
+
+<p>The phenotype data (i.e., the IC50 for each drug) are stored in the <code class="language-plaintext highlighter-rouge">CB1908_IC50.txt</code> and <code class="language-plaintext highlighter-rouge">GS451_IC50.txt</code> files. Genotype data are stored in a VCF file (<code class="language-plaintext highlighter-rouge">genotypes.vcf</code>)—a format that you should recognize by now.</p>
+
+<p>As always, if your <code class="language-plaintext highlighter-rouge">.gitignore</code> is not already set up to ignore these files (the VCF and the two phenotype files), you should update it so that they are ignored. <strong>You should NOT be uploading any of these files.</strong><br /><br /></p>
+
+<h2 id="exercises">Exercises</h2>
+
+<p>Before you begin the exercises, create a <code class="language-plaintext highlighter-rouge">plotting.py</code> script in your submission directory. You’ll be using this script to visualize 1) interesting summaries of your data and 2) your GWAS results.</p>
+
+<p>Also, create a <code class="language-plaintext highlighter-rouge">README.md</code> in your submission directory. You’ll be recording the commands you used for this assignment in this file, and submitting it with your plots.<br /><br /></p>
+
+<h3 id="exercise-1-performing-pca">Exercise 1: Performing PCA</h3>
+
+<h4 id="step-11-compute-genotype-pcs"><strong>Step 1.1</strong>: Compute genotype PCs</h4>
+
+<p>First, you want to perform PCA to compute the top genotype PCs for the samples in your data set. This is useful not only for visualizing the population structure in your data set, but also allows you to control for this structure when you perform your GWAS later.</p>
+
+<p>Using <code class="language-plaintext highlighter-rouge">plink</code>, perform PCA on the genotypes of the cell lines in the data set. Output the top 10 principal components.</p>
+
+<p>Record the <code class="language-plaintext highlighter-rouge">plink</code> command(s) you used in your <code class="language-plaintext highlighter-rouge">README.md</code>.<br /><br /></p>
+
+<h4 id="step-12-plot-genotype-pcs"><strong>Step 1.2</strong>: Plot genotype PCs</h4>
+
+<p>Now that you’ve computed the top genotyping PCs, you can visualize the population structure in your data set.</p>
+
+<p>In your <code class="language-plaintext highlighter-rouge">plotting.py</code> script, plot the top <strong>2</strong> genotype principal components from <code class="language-plaintext highlighter-rouge">plink</code> to visualize the genetic relatedness between the cell lines in the data set. Ensure that your plot is nicely formatted and properly labeled.<br /><br /></p>
+
+<h3 id="exercise-2-the-allele-frequency-spectrum">Exercise 2: The allele frequency spectrum</h3>
+
+<h4 id="step-21-compute-allele-frequencies"><strong>Step 2.1</strong>: Compute allele frequencies</h4>
+
+<p>The shape of the allele frequency specturm (AFS) can tell you interesting things about your sample, such as demographic history, and evidence of selection (read more <a href="https://en.wikipedia.org/wiki/Allele_frequency_spectrum">here</a>. While you will not be running these specific tests today, it is still interesting (and good practice) to visualize the AFS.</p>
+
+<p>Usually, the AF of each variant is stored in the <code class="language-plaintext highlighter-rouge">INFO</code> field in your VCF. The vcf file we’re using does not have an <code class="language-plaintext highlighter-rouge">INFO</code> field, so you’ll need to calculate AF yourself.</p>
+
+<p>Using <code class="language-plaintext highlighter-rouge">plink</code>, calculate allele frequencies for the variants in your VCF and output these to a file.</p>
+
+<p>Record the <code class="language-plaintext highlighter-rouge">plink</code> command(s) you used in your <code class="language-plaintext highlighter-rouge">README.md</code>.<br /><br /></p>
+
+<h4 id="step-22-plot-afs"><strong>Step 2.2</strong>: Plot AFS</h4>
+
+<p>Now that you’ve computed allele frequencies, you can visualize the AFS of the samples in your data set.</p>
+
+<p>In your <code class="language-plaintext highlighter-rouge">plotting.py</code> script, plot the AFS of the samples in your data set as a <em>histogram</em>. Ensure that your plot is nicely formatted and properly labeled.<br /><br /></p>
+
+<h3 id="exercise-3-gwas">Exercise 3: GWAS</h3>
+
+<h4 id="step-31-running-the-gwas"><strong>Step 3.1</strong>: Running the GWAS</h4>
+
+<p>Now you’re ready to run your GWAS!</p>
+
+<p>Using <code class="language-plaintext highlighter-rouge">plink</code>, perform quantitative association testing for each of your two phenotypes (you will be running <code class="language-plaintext highlighter-rouge">plink</code> one each per phenotype). Use the top 10 principal components you computed in <strong>Step 1.1</strong> as covariates in your analysis to control for non-independence due to relatedness/population structure.
+      &lt;li&gt; Be sure to use the <code>--allow-no-sex</code> option&lt;/li&gt;
+      &lt;li&gt; You may find this portion of the <code>plink</code> <a href="https://zzz.bwh.harvard.edu/plink/anal.shtml">documentation</a> helpful  for performing association testing on each of the phenotypes.&lt;/li&gt;
+      &lt;li&gt; HINT: We do NOT have case/control phenotpe data, so <code class="language-plaintext highlighter-rouge">--assoc</code> is not the correct <code class="language-plaintext highlighter-rouge">plink</code> flag.</p>
+
+<p>We encourage you to try this on your own first, but you can use the hint below to check your answer (this WILL give you the full <code class="language-plaintext highlighter-rouge">plink</code> command, be warned).</p>
+
+<details><summary><b>CLICK HERE IF YOU WANT TO CHECK YOUR ANSWER:</b></summary><code>plink --vcf genotypes.vcf --linear --pheno phenotype.txt --covar pca.eigenvec --allow-no-sex --out phenotype_gwas_results</code></details>
+
+<p>You should have two output files, one for each phenotype.</p>
+
+<p>Record the <code class="language-plaintext highlighter-rouge">plink</code> commands you used in your <code class="language-plaintext highlighter-rouge">README.md</code>.<br /><br /></p>
+
+<h4 id="step-32-visualing-gwas-results"><strong>Step 3.2</strong>: Visualing GWAS results</h4>
+
+<p>Now that you’ve run your GWAS analyses, you want to visualize the results.</p>
+
+<p>In your <code class="language-plaintext highlighter-rouge">plotting.py</code> script, produce a two-panel figure (one column, two rows) depicting the Manhattan plot for each of your two GWAS analyses (i.e. each phenotype). Each Manhattan plot should be one of the two panels in your figure. In each Manhattan plot, highlight SNPs with p-values less than 10<sup>-5</sup> in a different color.</p>
+
+<p>Ensure that your figure/panels are nicely formatted and properly labeled.<br /><br /></p>
+
+<h4 id="step-33-visualizing-effect-size"><strong>Step 3.3</strong>: Visualizing effect-size</h4>
+
+<p>You want to dig deeper into the top GWAS hits from your analyses.</p>
+
+<p>Choose one of the traits for which you performed GWAS.</p>
+
+<p>In your <code class="language-plaintext highlighter-rouge">plotting.py</code> script: for the top associated SNP (lowest p-value) of that trait, plot the effect size of that variant on the chosen trait by creating a boxplot of the phenotype stratified by genotype.<br /><br /></p>
+
+<h4 id="step-34-what-gene-could-it-be"><strong>Step 3.4</strong>: What gene could it be?</h4>
+
+<p>For the top loci associated with <strong>each</strong> of your two phenotypes, use the <a href="http://genome.ucsc.edu/cgi-bin/hgGateway">UCSC Genome Browser</a> to investigate the potential causal genes in the region. Note that the reference genome build being used here is <strong>hg18</strong>. (How could you figure this out if you didn’t know?).</p>
+
+<p>In your <code class="language-plaintext highlighter-rouge">README.md</code>, summarize what you found (i.e. what gene(s) are closest to each top hit? How might these genes impact the trait?).<br /><br /></p>
+
+<!-- 
+### Hints
+
+- You can perform the PCA and allele frequency calculations in Python, but `plink` can perform both as well. Either way, you will probably want to use matplotlib to produce the plots.
+- If you do PCA in python, be sure you have one datapoint per individual, as opposed to per SNP.
+- Each SNP only has one allele frequency.
+- Notice how the IDs are encoded in the phenotype files [phenotypes](https://www.cog-genomics.org/plink2/input#pheno]). `plink` expects both a family ID and a sample ID. In your VCF, they are separated by an underscore, but in your phenotype file they are separated by a tab-character. The files we provided are already formatted in this way, but keep this in mind for future work where reformatting may be necessary.-->
+
+<h2 id="submission">Submission</h2>
+
+<p>For this assignment you should submit the following:</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">README.md</code> with commands and analyses (<strong>2 points</strong>)
+    <ul>
+      <li>Step 1.1 command(s) (<strong>0.33 pt</strong>)</li>
+      <li>Step 2.1 command(s) (<strong>0.33 pt</strong>)</li>
+      <li>Step 3.1 commands (<strong>0.33 pt</strong>)</li>
+      <li>Answer to Step 3.4 (<strong>1 pt</strong>)</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">plotting.py</code> script to produce plots (<strong>4 points</strong>)
+    <ul>
+      <li>Code to produce step 1.2 PC plot (<strong>1 pt</strong>)</li>
+      <li>Code to produce step 2.2 AFS (<strong>1 pt</strong>)</li>
+      <li>Code to produce step 3.2 Manhattan plots (<strong>1 pt</strong>)</li>
+      <li>Code to procude setp 3.3 effect size box plot (<strong>1 pt</strong>)</li>
+    </ul>
+  </li>
+  <li>Pretty plots (<strong>4 points</strong>)
+    <ul>
+      <li>Step 1.2 PCA plot (<strong>1 pt</strong>)</li>
+      <li>Step 2.2 AFS (<strong>1 pt</strong>)</li>
+      <li>Step 3.2 multi-panel Manhattan plots (<strong>1 pt</strong>)</li>
+      <li>Step 3.3 effect size box plot (<strong>1 pt</strong>)</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>DO NOT</strong> push any raw data! Only the things we asked for!<br /><br /></p>
+
+<h2 id="advanced-exercises">Advanced Exercises</h2>
+
+<ol>
+  <li>
+    <p>In addition to your Manhattan plot, produce a QQ plot for each of the two traits, summarizing the results.</p>
+  </li>
+  <li>
+    <p>Examine the frequency of the top associated variants. What is its frequency in various global populations? Use the GGV Browser to explore this: https://popgen.uchicago.edu/ggv</p>
+  </li>
+  <li>
+    <p>Is the variant itself necessarily causal in driving the association? Investigate the local haplotype structure using the LDLink website’s “LDproxy” tool: https://ldlink.nci.nih.gov/?tab=ldproxy<br /><br /></p>
+  </li>
+</ol>
+
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
