@@ -1,0 +1,59 @@
+
+1.1
+30,000 100bp reads. 
+
+1.3 
+
+	1. In the simulation, there are 47824 based with 0 coverage
+	2. looking at this histogram it looks like a pretty good approximation of our simulation, this makes sense because the poisson distribution tells us the expected distribution of coverage given the parameters, and our simulation is confirming what we calcualted to expect. So our simulation is probably going correctly. Same with the normal distribution 
+
+1.4 
+
+	1. In the simulation, there are 81 based with 0 coverage
+	2. Both distributions fit better than the 3x coverage 
+
+1.5 
+
+	1.In the simulation, there are 3 based with 0 coverage
+	2. Much better than both 3x and 10x coverage for both the poisson and normal distributions, much more within the curves. 
+
+
+2.4 
+
+cat Graph.txt | dot -Tpng > ex.2_digraph.png 
+
+
+2.5 
+I don't know 
+
+2.6 
+I don't know 
+
+3.1 
+Input: Write a short essay on why I'm interested in genomics and include references. Keep it succinct. 
+
+Output: 
+Title: Exploring the Genomic Frontier: A Passion for Unraveling the Blueprint of Life
+
+Genomics, the study of an organism's complete set of DNA, has captured my intellectual curiosity and passion for its profound implications in understanding life's intricate machinery. At the heart of my interest lies the desire to unravel the genomic code, a blueprint that encodes the very essence of life, providing insights into health, evolution, and the fundamental principles governing biological diversity.
+
+One of the primary reasons behind my fascination with genomics is its pivotal role in advancing personalized medicine. The Human Genome Project, a monumental collaborative effort that deciphered the human genome, laid the foundation for tailoring medical treatments to individual genetic profiles. The prospect of leveraging genomics to predict and prevent diseases, customize drug therapies, and enhance overall healthcare efficiency has sparked my enthusiasm for contributing to the ongoing genomic revolution (Venter et al., 2001).
+
+Moreover, genomics serves as a powerful tool for unlocking the mysteries of evolution and biodiversity. By comparing the genomes of different species, we gain profound insights into the shared ancestry and unique adaptations that have shaped life on Earth. The study of comparative genomics has revealed conserved genetic elements that underlie essential biological functions, fostering a deeper appreciation for the interconnectedness of all living organisms (Liu et al., 2019).
+
+The burgeoning field of functional genomics, exploring the roles of individual genes and their interactions, further fuels my interest. CRISPR-Cas9 technology, a revolutionary genome editing tool, has empowered researchers to precisely manipulate genes, enabling the investigation of gene function and the development of potential therapeutic interventions (Doudna and Charpentier, 2014).
+
+In addition to its scientific significance, genomics has far-reaching implications for addressing global challenges. Agricultural genomics, for instance, holds the promise of enhancing crop yield, resilience, and nutritional content to meet the demands of a growing population in a changing climate (Varshney et al., 2018).
+
+In conclusion, my interest in genomics stems from its potential to unlock the secrets of life, contribute to personalized medicine, elucidate evolutionary processes, and address pressing global challenges. The dynamic and rapidly evolving nature of genomics continually inspires my pursuit of knowledge in this field, propelling me to contribute to the ever-expanding frontier of genomic exploration.
+
+References:
+
+Venter, J. C., et al. (2001). The Sequence of the Human Genome. Science, 291(5507), 1304–1351.
+Liu, L., et al. (2019). Genomic Analyses Reveal the Influence of Geographic Origin, Migration, and Hybridization on Modern Dog Breed Development. Cell Reports, 28(11), 2928–2942.
+Doudna, J. A., & Charpentier, E. (2014). The new frontier of genome engineering with CRISPR-Cas9. Science, 346(6213), 1258096.
+Varshney, R. K., et al. (2018). Achievements and prospects of genomics-assisted breeding in three staple food crops of Africa. Frontiers in Plant Science, 9, 907.
+
+
+3.2 
+It's a good essay, a little too flamboyant of wording for me and I would have kept it less fanciful. The flow makes logical sense, it's nicely organized, and the cited papers are real. I believe these citations support the claims in the essay since it's just supporting opinions. s
