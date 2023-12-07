@@ -1,3 +1,4 @@
 Exercise 2 
 
-0.0 I guess as the Jaccard Index
+ Jaccard Index: 0.9774948852011821
+ 
